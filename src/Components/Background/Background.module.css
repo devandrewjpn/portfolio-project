@@ -1,0 +1,28 @@
+.main {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#wrap {
+    position: relative;
+}
+#barco {
+    animation: barcomove 2s infinite;
+    position: absolute;
+    top: 0;
+}
+@keyframes barcomove {
+    0% {
+        left: 90%;
+    }
+    50% {
+        left: 95%;
+    }
+    100% {
+        left: 90%;
+    }
+}

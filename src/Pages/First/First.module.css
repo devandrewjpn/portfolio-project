@@ -1,0 +1,19 @@
+.wrap {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 20%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap > p {
+    font-size: 3rem;
+    margin: 0;
+    line-height: 4rem;
+}
+.wrap > span {
+    font-size: 8em;
+    line-height: 4rem;
+}

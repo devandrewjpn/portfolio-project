@@ -9,3 +9,12 @@
     flex-direction: column;
     align-items: flex-start;
 }
+.wrap form {
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    border: none;
+}
